@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header of the Page */
+.header{
+    background-color:bisque;
+    width:100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    position: fixed;
+    top:0px;
+    }
+
+.fish:hover a{
+    color: red;
+}
+
+.order:hover a{
+    color: red;
+}
+
+.login:hover a{
+    color: red;
+}
+ 
+.headerright{ 
+    display: flex;
+    margin-right: 30px;
+}    
+
+.headerright a{
+    text-decoration: none;
+}
+
+.headerright div{
+    margin-right: 30px;
+    font-size:20px;
+}
+
+.logo img {
+width: 80px;
+height:80px;
+border-radius: 100px;
+margin-left: 50px;
+}
+
+body{
+    background-color:antiquewhite;
+    padding-top: 20dvh;
+
+}
+
+body > h1{
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.Information ul{
+    font-size: 20px;
+    margin-left: 70px;
+}
+
+.leftlogo img{
+    display:flex;
+    border-radius: 100%;
+    width: 30dvh;
+    margin: 50px;
+    outline: lime solid 1px;
+}
+
+.heading {
+    display:flex;
+}
+
+.rightdescription h1{
+    padding-top: 100px;
+    font-size: 40px;
+}
+
+.rightdescription p{
+    font-size: 20px;
+}
+
+
+.map{
+    display:flex;
+    margin: 10px;
+}
+
+.mapleft {
+    text-align: center;
+    padding : 20dvh 10dvh 10dvh 10dvh;
+}
+
+.mapleft h1{
+    font-size: 40px;
+    text-align: left;
+}
+
+.mapleft p {
+    font-size: 25px;
+    text-align: left;
+}
+
+.mapright iframe{
+    width: 100dvh;
+    height: 50dvh;
+    border-radius:10%;
+    outline:solid lime 1px;
+}
+
+.mapright {
+    flex-grow: 1;
+    padding-left: 30px;
+}
+
+.steps {
+    display: flex;    
+}
+
+.leftstep img{
+    display:flex;
+    border-radius: 100%;
+    width: 30dvh;
+    margin: 50px;
+    outline: lime solid 1px;
+}
+
+.leftstep {
+    border: 1px solid #000;
+}
+
+.rightstep {
+    text-align: left;
+    border: 1px solid #000;
+    
+}
+
+.rightstep li{
+    list-style: none;
+}
+
+/* Footer of the Page*/
+.Footer {
+    background-color:bisque;
+    width:100%;
+    position:relative;
+    bottom: 0px;
+    padding: 10px 50px
+}
