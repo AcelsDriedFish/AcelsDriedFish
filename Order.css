@@ -2,48 +2,63 @@
     margin: 0;
     padding: 0;
 }
-.header nav {
+
+/* Header of the Page */
+.header{
     background-color:bisque;
     width:100%;
-    height: 135px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    position: fixed;
+    top:0px;
     }
-.header ul{
-margin-left: 60px;
+
+.fish:hover a{
+    color: red;
 }
 
-.header ul li {
-    list-style: none;
-    display: inline-block;
-    float: left;
-    line-height: 130px;
-
-}  
-
-.header ul li a {
-display: block;
-text-decoration: none;
-font-size: 30px;
-padding: 0 20px;
+.order:hover a{
+    color: red;
 }
 
-.header ul li a:hover{
-color:red
+.login:hover a{
+    color: red;
+}
+ 
+.headerright{ 
+    display: flex;
+    margin-right: 30px;
+}    
+
+.headerright a{
+    text-decoration: none;
 }
 
-.header img{
-    border-radius: 100px;
-    width: 130px;
-    height: 130px;
+.headerright div{
+    margin-right: 30px;
+    font-size:20px;
+}
+
+.logo img {
+width: 80px;
+height:80px;
+border-radius: 100px;
+margin-left: 50px;
 }
 
 body{
-    background-color: antiquewhite;
+    background-color:antiquewhite;
 }
 
-.Footer{
+
+/* Footer of the Page*/
+.Footer {
     background-color:bisque;
     width:100%;
-    position:fixed;
-    padding: 10px 50px;
-    bottom: 0;
+    position:relative;
+    bottom: 0px;
+    padding: 10px 50px
 }
