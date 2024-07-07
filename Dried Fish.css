@@ -50,26 +50,38 @@ margin-left: 50px;
 body{
     background-color: antiquewhite;
 }
-table{
-    background-color: aliceblue;
+
+.driedfish ul{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
 }
-button{
-    text-align: center;
+
+.driedfish li{
+    list-style: none;
+}
+
+.driedfish img{
+    max-width: 25dvh;
+    max-height: 25dvh;
+    outline: auto;
 }
 
 .Vacuum ul li{
 font-size: 20px;
 font-family:'Courier New', Courier, monospace;
 text-decoration:dotted;
+padding-left: 10dvh;
 }
 
 .Vacuum h1{
 font-size:30px;
 }
 
-.Footer address{
-padding: 30px;
-text-align: flex;
-background-color: bisque;
-width: 100%;
+/* Footer of the Page*/
+.Footer {
+    background-color:bisque;
+    width:100%;
+    position:relative;
+    bottom: 0px;
+    padding: 10px 50px
 }
