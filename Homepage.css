@@ -94,7 +94,7 @@ body > h1{
 
 .mapleft {
     text-align: center;
-    padding : 20dvh 10dvh 10dvh 10dvh;
+    padding : 10dvh 10dvh 10dvh 10dvh;
 }
 
 .mapleft h1{
@@ -148,7 +148,6 @@ body > h1{
 /* Footer of the Page*/
 .Footer{
     background-color:bisque;
-    width:100%;
     bottom: 0px;
     max-width:100%;
     padding: 10px 50px
@@ -169,10 +168,7 @@ body > h1{
 
 .header {
     height:20dvh;
-}
-
-.headerright {
-    padding-right: 7dvh;
+    width: 100%;
 }
 
 .fish a{
@@ -189,24 +185,60 @@ body > h1{
 
 .heading {
     display: flex;
+    width:180%;
 }
 
 .leftlogo img{
-    width: 100px;
-    height: 100px;
+    width: 20dvh;
+    height: 20dvh;
 }
 
-.rightdescription {
-    position:relative;
+.leftlogo {
+    padding-top: 9dvh;
 }
 
-.Footer {
-    width:1000px
+.map {
+    width: 180%;
+}
+
+.mapleft {
+    padding: 0%;
+    padding-left: 30px;
+}
+
+.mapright {
+    flex: 1;
+    padding-right: 30px;
+}
+
+.mapleft h1{
+    font-size: 30px;
+}
+
+.mapleft p{
+    font-size: 20px;
 }
 
 .mapright iframe{
     width: 400px;
     height: 200px;
+    margin: 0%;
+}
+
+.steps {
+    width: 180%;
+}
+
+.rightstep h1{
+    font-size:30px;
+}
+
+.rightstep li {
+    font-size: 25px;
+}
+
+.Footer {
+    width:300%;
 }
 
 }
