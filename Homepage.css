@@ -68,9 +68,9 @@ body > h1{
 .leftlogo img{
     display:flex;
     border-radius: 100%;
-    width: 30dvh;
     margin: 50px;
     outline: lime solid 1px;
+    width: 30dvh;
 }
 
 .heading {
@@ -80,6 +80,7 @@ body > h1{
 .rightdescription h1{
     padding-top: 100px;
     font-size: 40px;
+    
 }
 
 .rightdescription p{
@@ -89,7 +90,6 @@ body > h1{
 
 .map{
     display:flex;
-    margin: 10px;
 }
 
 .mapleft {
@@ -131,25 +131,83 @@ body > h1{
     outline: lime solid 1px;
 }
 
-.leftstep {
-    border: 1px solid #000;
-}
-
 .rightstep {
     text-align: left;
-    border: 1px solid #000;
-    
+    margin-top: 10dvh;
+}
+
+.rightstep h1{
+    font-size:5dvh;
 }
 
 .rightstep li{
     list-style: none;
+    font-size: 4dvh;
 }
 
 /* Footer of the Page*/
-.Footer {
+.Footer{
     background-color:bisque;
     width:100%;
-    position:relative;
     bottom: 0px;
+    max-width:100%;
     padding: 10px 50px
 }
+
+/* Device CSS */
+@media screen and (max-width:360px){
+
+*{
+    max-width:max-content;
+}
+
+.headerleft img{
+    width: 15dvh;
+    height: 15dvh;
+    margin-right: 50px;
+}
+
+.header {
+    height:20dvh;
+}
+
+.headerright {
+    padding-right: 7dvh;
+}
+
+.fish a{
+    font-size:4dvh;
+}
+
+.order a{
+    font-size:4dvh;
+}
+
+.login a{
+    font-size: 4dvh;
+}
+
+.heading {
+    display: flex;
+}
+
+.leftlogo img{
+    width: 100px;
+    height: 100px;
+}
+
+.rightdescription {
+    position:relative;
+}
+
+.Footer {
+    width:1000px
+}
+
+.mapright iframe{
+    width: 400px;
+    height: 200px;
+}
+
+}
+/* End of Device Css */
